@@ -20,6 +20,8 @@ $color-3: #ff5252;
 
 $color-4: #1e272e;
 
+$color-5: #33d9b24d;
+
 $transition: all 1s;
 
 // Global //
@@ -286,7 +288,7 @@ div p {
 
 .overlay {
     position: absolute;
-    background-color: rgba(51, 217, 178, 0.3);
+    background-color: $color-5;
     width: 214px;
     height: 100%;
     top: 20px;
@@ -368,13 +370,15 @@ input {
     margin-top: 15%;
 }
 
-.btn-nine {
+.contact .btn-nine {
     border-color: $color-main;
-    color: $color-main;
+    color: $color-1;
     background-image: linear-gradient(90deg, $color-main 50%, transparent 50%);
 }
 
-// Icons //
+.contact .btn-nine:hover {
+    background-color: $color-1;
+}
 
 .social-icons {
     display: flex;
@@ -397,23 +401,23 @@ li {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    transition: $transition;
+    transition: transform 0.2s ease;
+    margin-right: 20px;
 }
 
 .social-icon:hover {
-    width: 120px;
-    height: 120px;
+    transform: scale(1.5);
 }
 
 i {
     font-size: 30px;
     color: $color-main;
     border-radius: 50%;
-    transition: $transition;
+    transition: transform 0.2s ease;
 }
 
-i:hover {
-    font-size: 60px;
+.social-icon:hover i {
+    transform: scale(1.2);
 }
 
 // Media //
@@ -442,7 +446,7 @@ i:hover {
 
 @media (max-width: 767px) {
     .details {
-        margin-top: 20px;
+        margin-top: 120px;
     }
 }
 
