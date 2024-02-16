@@ -1,6 +1,6 @@
 ♕ PROJECT "We build brands and products"
 
-💻 Live demo: https://c77dc217-da29-4f8c-b91f-2a33d9f29bdd-00-3pn8vjqh8ldqx.janeway.replit.dev
+💻 Live demo: https://css-rwd-practice-module-2.onrender.com
 
 (!) Free hosting so might take a while to load for first time.
 
