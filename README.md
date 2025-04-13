@@ -1,6 +1,6 @@
 ♕ PROJECT "We build brands and products"
 
-💻 Live demo: https://css-rwd-practice-module-2-viktoryiavysots.replit.app
+💻 Live demo: https://css-rwd-practice-module-2.vercel.app
 
 (!) Free hosting so might take a while to load for first time.
 
